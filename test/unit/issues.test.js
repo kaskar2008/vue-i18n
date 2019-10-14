@@ -543,10 +543,10 @@ describe('issues', () => {
         locale: 'en',
         messages: {
           'en': {
-            test: 'no tests | 1 test | {n} tests'
+            test: 'no tests | {n} test | {n} tests'
           },
           'ru': {
-            test: 'нет тестов | 1 тест | {n} теста | {n} тестов'
+            test: 'нет тестов | {n} тест | {n} теста | {n} тестов'
           }
         },
         pluralizationRules: {
@@ -569,7 +569,7 @@ describe('issues', () => {
         locale: 'ru',
         messages: {
           ru: {
-            car: '0 машин | 1 машина | {n} машины | {n} машин'
+            car: '0 машин | {n} машина | {n} машины | {n} машин'
           }
         },
         pluralizationRules: {
@@ -620,7 +620,7 @@ describe('issues', () => {
         locale: 'en',
         messages: {
           ru: {
-            car: '0 машин | 1 машина | {n} машины | {n} машин'
+            car: '0 машин | {n} машина | {n} машины | {n} машин'
           }
         }
       })
