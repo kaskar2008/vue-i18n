@@ -86,8 +86,8 @@ This would effectively give this:
 ```javascript
 const messages = {
   ru: {
-    car: '0 машин | 1 машина | {n} машины | {n} машин',
-    banana: 'нет бананов | 1 банан | {n} банана | {n} бананов'
+    car: '0 машин | {n} машина | {n} машины | {n} машин',
+    banana: 'нет бананов | {n} банан | {n} банана | {n} бананов'
   }
 }
 ```
